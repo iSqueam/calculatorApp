@@ -6,7 +6,7 @@ body {
     align-items: center;
 }
 
-.container {
+.calculator {
     background-color: black;
     max-width: 300px;
     height: auto;
@@ -19,7 +19,7 @@ body {
     user-select: none;
 }
 
-#Display-area {
+#calc_display {
     width: 100%;
     margin: 3vh 0;
     display: grid;
@@ -30,7 +30,7 @@ body {
     border-bottom: 1px grey solid;
 }
 
-#Display-area .currentInput {
+#calc_display #currentInput {
     display: flex;
     text-align: right;
     height: 8vh;
@@ -40,7 +40,7 @@ body {
     word-wrap: break-word;
 }
 
-#Display-area .answerScreen {
+#calc_display #answerScreen {
     text-align: right;
     color: green;
     height: 7px;
@@ -66,6 +66,10 @@ body {
 
 .keypad-btns .fun_btn {
     color: orange;
+}
+
+.keypad-btns .active_fun {
+    background-color: green;
 }
 
 .num_btn:hover,.fun_btn:hover {
