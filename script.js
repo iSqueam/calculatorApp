@@ -8,6 +8,8 @@ let evalute = document.querySelector('#evaluate');
 
 // Display
 let realTimeScreenValue = []
+let firstValue = []
+let secondValue = []
 
 // to Clear
 clearbtn.addEventListener('click', () => {
